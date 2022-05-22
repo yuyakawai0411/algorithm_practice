@@ -1,7 +1,7 @@
 # algorithm_practice
 At-Coderの練習用リポジトリです
-[At-Coder](https://atcoder.jp/contests/math-and-algorithm "問題集")
-[At-Coder](https://github.com/E869120/math-algorithm-book/tree/main/codes/cpp "答え")
+- [問題集Link](https://atcoder.jp/contests/math-and-algorithm)
+- [回答集Link](https://github.com/E869120/math-algorithm-book/tree/main/codes/cpp)
 # セットアップ
 ```
 sudo apt-get update
