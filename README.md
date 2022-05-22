@@ -1,12 +1,13 @@
 # algorithm_practice
-At-coderの練習用リポジトリです
+At-Coderの練習用リポジトリです
+[At-Coder](https://atcoder.jp/contests/math-and-algorithm "問題集")
+[At-Coder](https://github.com/E869120/math-algorithm-book/tree/main/codes/cpp "答え")
 # セットアップ
 ```
 sudo apt-get update
 ```
 # アプリ
 ## gcc、g++
----
 ### 概要
 - C言語、C++のコンパイラ
 - バイナリやアセンブラで出力できる
@@ -25,7 +26,6 @@ $ gcc -g3 -O0 -S -o hello hello.c
 $ g++ -g3 -O0 -S -o hello hello.cpp
 ```
 ## gdb
----
 ### 概要
 - binding.pryのように動的デバックをすることができる
 - メモリの中身なども見れるため、C言語のデバッカーとして優秀
@@ -38,7 +38,6 @@ $ sudo apt install gdb
 $ gdb ./hello
 ```
 ## perf
----
 ### 概要
 - プログラムのパフォーマンスを計測できる
 ### インストール
@@ -53,7 +52,9 @@ $ sudo perf stat ./hello
 ### 概要
 - メモリの解放忘れなどを検知してくれる
 ### インストール
-
+```
+$ sudo apt install valgrind
+```
 ### 使用例
 ```
 # definitely lost検出
@@ -64,7 +65,6 @@ $ valgrind --leak-check=full ./hello 2
 $ valgrind --leak-check=full ./hello 3
 ```
 ## strace
----
 ### 概要
 - 入力したコマンドをシステムコール(OSへの命令)ベースで確認することができる
 ### インストール

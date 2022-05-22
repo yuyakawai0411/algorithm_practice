@@ -8,4 +8,5 @@
 !Makefile
 !Vagrantfile
 .vagrant
+.vscode
 ubuntu-bionic-18.04-cloudimg-console.log
