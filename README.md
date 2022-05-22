@@ -49,6 +49,20 @@ $ sudo apt install linux-tools-common linux-tools-$(uname -r)
 ```
 $ sudo perf stat ./hello
 ```
+## valgrind
+### 概要
+- メモリの解放忘れなどを検知してくれる
+### インストール
+
+### 使用例
+```
+# definitely lost検出
+$ valgrind --leak-check=full ./hello 1
+# indirectly lost検出
+$ valgrind --leak-check=full ./hello 2
+# segfault検出
+$ valgrind --leak-check=full ./hello 3
+```
 ## strace
 ---
 ### 概要
