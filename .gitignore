@@ -1,2 +1,11 @@
-ubuntu-bionic-18.04-cloudimg-console.log
+# 全部を一旦git管理対象外にしておいて
+*
+# !をつかって、.を含むファイルはgit管理対象にする
+!*.*
+# ディレクトリ管理対象にする
+!*/
+# 拡張子を含まないファイルとか
+!Makefile
+!Vagrantfile
 .vagrant
+ubuntu-bionic-18.04-cloudimg-console.log
