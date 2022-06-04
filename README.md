@@ -2,6 +2,16 @@
 At-Coderの練習用リポジトリです
 - [問題集Link](https://atcoder.jp/contests/math-and-algorithm)
 - [回答集Link](https://github.com/E869120/math-algorithm-book/tree/main/codes/cpp)
+# 考え方
+1. 現実世界で何のにたつの?
+  - 現実世界の何を解決するのか？
+  - 発祥・起源
+  - ex.最大公約数=正方形のタイルをピッタリひきつめるのに役立つ
+2. 時間がかかるケースで考える
+  - ex.全探索
+3. どうやったら効率的にできるか考える
+  - ex.二分探索
+
 # セットアップ
 ```
 sudo apt-get update
