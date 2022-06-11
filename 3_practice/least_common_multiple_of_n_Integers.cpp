@@ -12,9 +12,9 @@ long long GCD(long long A, long long B){
 
 // 最小公倍数
 long long LCM(long long A, long long B){
-  return (A / GCD(A,B)) * B;
-  
-  // return A * B / GCD(A,B);
+  // return (A / GCD(A,B)) * B;
+
+  return A / GCD(A,B) * B;
 }
 
 int main()
