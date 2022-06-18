@@ -14,7 +14,7 @@ At-Coderの練習用リポジトリです
 
 # いまいち理解できていない
 - []026-Coin Gacha
-
+- []マージソート
 # セットアップ
 ```
 sudo apt-get update
