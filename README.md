@@ -15,6 +15,9 @@ At-Coderの練習用リポジトリです
 # いまいち理解できていない
 - []026-Coin Gacha
 - []マージソート
+
+# 飛ばした問題
+- [] [節末問題 4.5.8](https://atcoder.jp/contests/math-and-algorithm/tasks/arc084_b)
 # セットアップ
 ```
 sudo apt-get update
