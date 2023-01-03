@@ -1,8 +1,8 @@
 ## 進捗
 ### 2.1 節｜数の分類・文字式・2 進法
 - [x] 本文 2.1.3 項：001 - Print 5+N
-- [ ] 本文 2.1.4 項：002 - Sum of 3 Integers
-- [ ] 本文 2.1.5 項：003 - Sum of N Integers
+- [x] 本文 2.1.4 項：002 - Sum of 3 Integers
+- [x] 本文 2.1.5 項：003 - Sum of N Integers
 - [ ] 節末問題 2.1.3：004 - Product of 3 Integers
 ### 2.2 節｜基本的な演算と記号
 - [ ] 節末問題 2.2.4：005 - Modulo 100
