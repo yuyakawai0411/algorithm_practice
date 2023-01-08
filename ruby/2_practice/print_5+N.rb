@@ -1,7 +1,6 @@
 def main
   n = gets.to_i
-  answer = n + 5
-  puts answer
+  puts n + 5
 end
 
 main

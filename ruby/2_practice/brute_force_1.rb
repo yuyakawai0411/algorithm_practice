@@ -1,5 +1,4 @@
-require "pry"
-## 全探査で解いた
+## TODO: rubyで全探査でもっと効率的なものを調べる
 def main
   n, s = gets.split(" ").map(&:to_i)
   count = 0
