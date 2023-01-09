@@ -48,8 +48,24 @@
 - [ ] コラム 3｜配列の二分探索
 - [ ] コラム 3：032 - Binary Search
 
-## 使用しているデバッガ
-- [debug](https://github.com/ruby/debug)
+## 使用ライブラリ
+### デバックする
+```rb
+require "pry"
+
+# 処理内容
+binding.pry
+# 処理内容
+```
+### 処理時間を計測する
+```rb
+require 'benchmark'
+
+result = Benchmark.realtime do
+  # 処理内容
+end
+puts "処理時間:#{result * 1000}ms"
+```
 
 ## 参考文献
 - [Ruby競プロTips](https://zenn.dev/universato/articles/20201210-z-ruby)
