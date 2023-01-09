@@ -1,16 +1,25 @@
 require 'pry'
-# TODO: rubyの素数判定でもっと効率的なものを調べる
+require 'benchmark'
+
+def primes(n)
+  primes_arry = []
+  (2..n).each do |i|
+    primality = true
+    (2..i).each do |j|
+      break if j > i ** 0.5
+      if i % j == 0
+        primality = false
+        break
+      end
+    end
+    primes_arry << i if primality
+  end
+  primes_arry
+end
+
 def main
   n = gets.to_i
-  primes = []
-  (2..n).each do |i|
-    count = 0
-    (2..i).each do |j|
-     count += 1 if i % j == 0
-    end
-    primes << i if count == 1
-  end
-  print "#{primes.join(' ')}\n"
+  print "#{primes(n).join(' ')}\n"
 end
 
 main

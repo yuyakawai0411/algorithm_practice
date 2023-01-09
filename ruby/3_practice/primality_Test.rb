@@ -20,11 +20,8 @@ end
 
 def main
   n = gets.to_i
-  result = Benchmark.realtime do
-    primality = is_primality?(n)
-    puts primality ? 'Yes' : 'No'
-  end
-  puts "処理時間:#{result * 1000}ms"
+  primality = is_primality?(n)
+  puts primality ? 'Yes' : 'No'
 end
 
 main
